@@ -1,0 +1,512 @@
+@media (min-width: 1221) and (max-width:1440){
+    .what_we_do {
+        background-size: 1050px;
+    }
+}
+@media (min-width: 992px) and (max-width:1220px){
+    .banner h1 {
+        
+        font-size: 58px;
+    }
+    .who_we_are {
+        
+        margin: 0 !important;
+    }
+    .what_we_do {
+        
+background-size: 760px;
+        
+margin: 0 !important;
+        
+padding-top: 0 !important;
+    }
+}
+/* 768px-991px start here  */
+@media (min-width: 768px) and (max-width:991px){
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 39%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 39%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 10%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 10%;
+    }
+    .banner h1 {
+    FONT-SIZE: 35px;
+    }
+    .who_we_are {
+    MARGIN: 0 !IMPORTANT;
+    }
+    .who_we_are h1 {
+    FONT-SIZE: 30px;
+    MARGIN: 20px 0;
+    }
+    .what_we_do {
+    BACKGROUND-SIZE: 550PX;
+    PADDING: 0px 0px 30px !important;
+    }
+    .attroney-section {
+    padding: 30px 0;
+    }
+    .language h2 {
+    font-size: 20px;
+    }
+    footer ul li i {
+        font-size: 25px;
+    }
+}
+/* 576px-767px start here  */
+
+@media (min-width: 576px) and (max-width:767px){
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 24%;
+    }
+    .banner h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .who_we_are {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center;
+    }
+    .who_we_are h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .who_we_are p {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .who-we {
+        text-align: center !important;
+    }
+    .who_we_are img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .what_we_do {
+        padding: 0 !important;
+        background-size: 775px;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        margin: 0px 0 20px 0;
+    }
+    .image {
+        margin: 10px 0 20px 0;
+    }
+    .attroney-section {
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section .man{ 
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section h1 {
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .attroney-section p {
+        font-weight: 500;
+        padding: 1rem 0 10px;
+    }
+    .language h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .language p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 426px-575px start here  */
+
+@media (min-width: 426px) and (max-width:575px){
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 34%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 34%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 15%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 15%;
+    }
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .who_we_are {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .who_we_are h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .who_we_are p {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .who-we {
+        text-align: center !important;
+    }
+    .who_we_are img {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .what_we_do {
+        padding: 0 !important;
+        background-size: 575px;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .image {
+        margin: 10px 0 20px 0;
+    }
+    .attroney-section {
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section .man{ 
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .attroney-section p {
+        font-weight: 500;
+        padding: 1rem 0 10px;
+    }
+    .language h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .language p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 376px-425px start here  */
+
+@media (min-width: 376px) and (max-width:425px){
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 29%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 29%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 20%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 20%;
+    }
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .who_we_are {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .who_we_are h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .who_we_are p {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .who-we {
+        text-align: center !important;
+    }
+    .who_we_are img {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .what_we_do {
+        padding: 0 !important;
+        background-size: 425px;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .image {
+        margin: 10px 0 20px 0;
+    }
+    .attroney-section {
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section .man{ 
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .attroney-section p {
+        font-weight: 500;
+        padding: 1rem 0 10px;
+    }
+    .language h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .language p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 321px-375px start here  */
+
+@media (min-width: 321px) and (max-width: 375px){
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 26%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 26%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 22%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 22%;
+    }
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .who_we_are {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .who_we_are h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .who_we_are p {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .who-we {
+        text-align: center !important;
+    }
+    .who_we_are img {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .what_we_do {
+        padding: 0 !important;
+        background-size: 375px;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .image {
+        margin: 10px 0 20px 0;
+    }
+    .attroney-section {
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section .man{ 
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .attroney-section p {
+        font-weight: 500;
+        padding: 1rem 0 10px;
+    }
+    .language h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .language p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+/* 0px-320px start here  */
+
+@media (min-width: 0px) and (max-width:320px) {
+    .navbar-light .navbar-nav .nav-link { 
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        right: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        left: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover:before {
+        width: 24%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 24%;
+    }
+    .banner h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .who_we_are {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .who_we_are h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .who_we_are p {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+    .who-we {
+        text-align: center !important;
+    }
+    .who_we_are img {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .what_we_do {
+        padding: 0 !important;
+        background-size: 300px;
+    }
+    .heading h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .image {
+        margin: 10px 0 20px 0;
+    }
+    .attroney-section {
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section .man{ 
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .attroney-section h1 {
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .attroney-section p {
+        font-weight: 500;
+        padding: 1rem 0 10px;
+    }
+    .language h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .language p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    footer h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /* closing point */
+}

@@ -1,0 +1,95 @@
+* { margin: 0px; padding: 0px; }
+@keyframes updown { 
+  0% { top: 75%; }
+  100% { top: 80%; }
+}
+.navbar-toggler-menu{
+  color:  #e44f24;
+}
+.navbar-light .navbar-nav .nav-link { position: relative; color: rgb(32, 79, 135); font-size: 16px; text-transform: uppercase; font-family: Montserrat, sans-serif; font-weight: bold; }
+.navbar-light .navbar-nav .nav-link:hover { color: rgb(0, 0, 0); }
+.navbar-light .navbar-nav .nav-link::after{
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #e44f24;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::before{
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: #e44f24;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover:before{
+  width: 47%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+  width: 47%;
+}
+.banner { background-image: url("../images/banner.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 100vh; }
+.banner h1 { color: rgb(255, 255, 255); font-size: 65px; text-transform: uppercase; position: relative; font-weight: bold; font-family: Montserrat, sans-serif; }
+.hg { align-items: center; min-height: 90vh; }
+.icon a{ }
+.icon a i{ color: rgb(255, 255, 255); position: absolute; font-size: 35px; left: 50%; top: 75%; transform: translateX(-50%); animation: 1s linear 0s infinite alternate none running updown; }
+.who_we_are { }
+.who_we_are span { display: inline-block; height: 5px; width: 0px; background: rgb(240, 84, 39); transition: all 0.5s ease-in-out 0s; }
+.who_we_are h1 { color: rgb(32, 79, 135); font-size: 40px; font-weight: bold; font-family: Montserrat, sans-serif; }
+.who_we_are p {color: rgb(176, 176, 177);font-weight: bold;font-size: 16px;font-family: "Open Sans", sans-serif;}
+.who-we { }
+.who-we .who_we_are img { }
+.who_we_are:hover span { width: 50px; }
+.what_we_do { background-color: rgb(255, 255, 255); background-image: url("../images/what-we-do_bg.png"); background-position: right bottom; background-repeat: no-repeat; background-size: 1050px; }
+.heading { }
+.heading span { display: block; height: 5px; width: 0px; background: rgb(240, 84, 39); transition: all 0.5s ease-in-out 0s; margin: auto; }
+.what_we_do:hover .heading span { width: 50px; }
+.heading h1 {color: rgb(32, 79, 135);font-size: 40px;text-align: center;font-weight: bold;font-family: Montserrat, sans-serif;text-transform: uppercase;}
+.image { position: relative; }
+.image::before { content: ""; position: absolute; height: 0%; width: 100%; left: 0px; bottom: 0px; opacity: 0.5; transition: all 0.5s ease-in-out 0s; background: linear-gradient(rgba(125, 185, 232, 0) 0%, rgba(121, 179, 227, 0) 3%, rgb(41, 57, 128) 59%, rgb(40, 55, 126) 60%, rgb(40, 55, 126) 100%); }
+.image:hover::before { height: 100%; }
+.text { position: absolute; top: 60%; opacity: 0; left: 50%; transition: all 0.5s ease-in-out 0s; transform: translate(-50%, -50%); }
+.text h1 { color: rgb(255, 255, 255); font-weight: bold; font-family: Montserrat, sans-serif; font-size: 20px; text-align: center; }
+.image:hover .text { opacity: 1; top: 55%; }
+.image-icon { position: absolute; left: 45%; top: 80%; color: rgb(255, 255, 255); font-size: 30px; transform: translate(-50%); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.image:hover .image-icon { opacity: 1; left: 50%; }
+.attroney-section { background-image: url("../images/attroney-section.png"); background-position: center center; background-repeat: no-repeat; background-size: cover; padding: 100px 0px; }
+.attroney-section span { display: inline-block; height: 5px; width: 0px; background: rgb(240, 84, 39); transition: all 0.5s ease-in-out 0s; }
+.attroney-section .man{ }
+.attroney-section:hover span { width: 50px; }
+.attroney-section h1 {color: rgb(255, 255, 255);font-weight: bold;font-family: Montserrat, sans-serif;padding: 1rem 0;margin: 0;}
+.attroney-section p {color: rgb(146, 157, 207);font-weight: bold;font-size: 16px;font-family: "Open Sans", sans-serif;padding: 1rem 0 3rem;margin: 0;}
+.attroney-section a {color: rgb(242, 98, 44);font-weight: bold;font-family: 'Montserrat', sans-serif;font-size: 18px;}
+.dasignation { position: absolute; left: 20%; top: 80%; color: rgb(255, 255, 255); opacity: 0; transition: all 0.5s ease-in-out 0s; }
+.dasignation h2 { font-family: Montserrat, sans-serif; font-weight: bold; }
+.image:hover .dasignation { opacity: 1; top: 70%; }
+.language{ }
+.language:hover .heading span{ width: 50px;}
+.language h2{ color: #28377e;font-size: 25px;font-weight: bold;font-family: Montserrat, sans-serif;text-transform: uppercase;}
+.language p{ color: rgb(176, 176, 177);font-weight: bold;font-size: 14px;font-family: "Open Sans", sans-serif;}
+.language a{ color: rgb(242, 98, 44);font-weight: bold;font-family: 'Montserrat', sans-serif;font-size: 14px;}
+.contact{ background-color: #28377e;}
+.contact:hover .heading span{ width: 50px;}
+.contact h1 {color: #fff;font-size: 40px;text-align: center;font-weight: bold;font-family: Montserrat, sans-serif;text-transform: uppercase;}
+form{ }
+form input{caret-color: #ffffff;background: transparent !important;border-radius: 0 !important;border: none !important;border-bottom: 1px solid rgb(158, 157, 157) !important;color: #fff !important;}
+form input:focus{ box-shadow: none !important;}
+form input::placeholder{color: #fff !important;}
+form textarea{caret-color: #ffffff; background: transparent !important;border-radius: 0 !important;border: none !important;border-bottom: 1px solid rgb(158, 157, 157) !important;}
+form textarea::placeholder{ color: #fff !important;}
+form textarea:focus{ box-shadow: none !important;}
+.btn-primary { color: #fff;background-color: #f15526 !important;padding: 10px 80px;border: solid 1px #f15526 !important;transition: .5s all ease-in-out;}
+.btn-primary:focus{ box-shadow: none !important;}
+.btn-primary:hover{ background: transparent !important;}
+footer{ background-color: #0c1234;}
+footer h5{color: #616ca8;font-weight: bold;font-family: Montserrat, sans-serif;font-size: 23px;}
+footer h5 span{color: #ffffff;}
+footer ul{list-style: none;display: flex;justify-content: space-around;margin: 0px;padding: 0px;}
+footer ul li{color: #b1b7dd;}
+footer ul li i{font-size: 30px;}
